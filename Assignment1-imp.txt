@@ -1,0 +1,21 @@
+For the Restful services make the candidates do the following:
+
+1. Create Talk application and model with 
+properties: ID, Name, Speaker, Venue, Duration
+2. Create service with methods:
+GetTalks() -returns list of talks
+GetTalk(int ID)
+Insert(Talk)
+Update(Talk,ID)
+Delete(ID)
+
+django rest framework to create the above api, 
+test with django interface and postman.
+
+
+Endpoint	HTTP Method	CRUD Method	Result
+puppies	        GET/READ	    Get all puppies
+puppies/:id	    GET/READ	    Get a single puppy
+puppies	        POST/CREATE	    Add a single puppy
+puppies/:id	    PUT/UPDATE	    Update a single puppy
+puppies/:id	    DELETE/Delete   Delete a single puppy
